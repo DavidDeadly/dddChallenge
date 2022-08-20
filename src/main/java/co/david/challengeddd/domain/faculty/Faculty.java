@@ -23,7 +23,7 @@ public class Faculty extends AggregateEvent<FacultyID> {
     appendChange(new FacultyCreated(facultyName, activeYears));
   }
 
-  public Faculty(FacultyID facultyID) {
+  private Faculty(FacultyID facultyID) {
     super(facultyID);
     subscribe(new FacultyChange(this));
   }

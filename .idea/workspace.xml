@@ -5,37 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f5daa7a-96d2-4653-8e70-5b21feffda01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/usecase/complement/AddBookUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/usecase/complement/AssignComputerStudentUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/usecase/complement/BuyComputerUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/usecase/complement/CreateComplementUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/usecase/complement/IncreaseSpaceCapacityUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/usecase/complement/RenameFacultyUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/usecase/faculty/AddSubjectUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/usecase/faculty/AssignDirectorUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/usecase/faculty/AssignSubjectProfessorUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/usecase/faculty/CreateFacultyUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/usecase/faculty/ExpulseStudentUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/usecase/faculty/RegisterStudentUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/david/challengeddd/usecase/complement/AddBookUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/david/challengeddd/usecase/complement/AssignComputerStudentUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/david/challengeddd/usecase/complement/BuyComputerUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/david/challengeddd/usecase/complement/CreateComplementUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/david/challengeddd/usecase/complement/IncreaseSpaceCapacityUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/david/challengeddd/usecase/complement/RenameFacultyUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/david/challengeddd/usecase/faculty/AddSubjectUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/david/challengeddd/usecase/faculty/AssignDirectorUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/david/challengeddd/usecase/faculty/AssignSubjectProfessorUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/david/challengeddd/usecase/faculty/CreateFacultyUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/david/challengeddd/usecase/faculty/ExpulseStudentUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/david/challengeddd/usecase/faculty/RegisterStudentUseCaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/Complement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/Complement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/ComplementChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/ComplementChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/Space.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/commands/AddBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/commands/AddBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/commands/BuyComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/commands/BuyComputer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/commands/RegisterSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/commands/RegisterSpace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/BookAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/BookAdded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/ComputerBuyed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/ComputerBuyed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/SpaceRegistered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/SpaceRegistered.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Director.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Faculty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/FacultyChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/FacultyChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/AddSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/AddSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/AssignDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/AssignDirector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/ExpulseStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/ExpulseStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/GraduateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/GraduateStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/HireProfessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/HireProfessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/RegisterStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/RegisterStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/DirectorAssigned.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/DirectorAssigned.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/ProfessorFired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/ProfessorFired.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/ProfessorHired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/ProfessorHired.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/StudentExpulsed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/StudentExpulsed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/StudentGraduated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/StudentGraduated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/StudentRegistered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/StudentRegistered.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/SubjectAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/SubjectAdded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/YearsInCharge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/YearsInCharge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/CreateFaculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/CreateFaculty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/FacultyID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/FacultyID.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -65,7 +63,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/daviddeadly/Dev/Sofka/DDD/modelo_ddd_ciclo4"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/home/daviddeadly/Dev/Sofka/DDD/modelo_ddd_ciclo4",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -73,27 +74,100 @@
       <recent name="co.david.challengeddd.domain.faculty" />
       <recent name="co.david.challengeddd.domain.complement" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="co.david.challengeddd.usecase.complement" />
+      <recent name="co.david.challengeddd.domain.complement.values" />
+      <recent name="co.david.challengeddd.usecase.faculty" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.david.challengeddd.usecase.complement" />
       <recent name="co.david.challengeddd.domain.faculty.values" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.david.challengeddd.Main" />
+  <component name="RunManager" selected="JUnit.co.david.challengeddd.usecase in dddChallenge">
+    <configuration name="AddBookUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dddChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.david.challengeddd.*" />
+          <option name="PATTERN" value="co.david.challengeddd.usecase.complement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="co.david.challengeddd.usecase.complement" />
+      <option name="MAIN_CLASS_NAME" value="co.david.challengeddd.usecase.complement.AddBookUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectCapacitySpaceInTypeUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dddChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.david.challengeddd.usecase.complement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.david.challengeddd.usecase.complement" />
+      <option name="MAIN_CLASS_NAME" value="co.david.challengeddd.usecase.complement.ReflectCapacitySpaceInTypeUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenameFacultyUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dddChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.david.challengeddd.usecase.complement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.david.challengeddd.usecase.complement" />
+      <option name="MAIN_CLASS_NAME" value="co.david.challengeddd.usecase.complement.RenameFacultyUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="co.david.challengeddd.usecase in dddChallenge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dddChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.david.challengeddd.usecase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.david.challengeddd.usecase" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="co.david.challengeddd.usecase.faculty in dddChallenge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dddChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.david.challengeddd.usecase.faculty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.david.challengeddd.usecase.faculty" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.co.david.challengeddd.usecase in dddChallenge" />
+        <item itemvalue="JUnit.AddBookUseCaseTest" />
+        <item itemvalue="JUnit.co.david.challengeddd.usecase.faculty in dddChallenge" />
+        <item itemvalue="JUnit.RenameFacultyUseCaseTest" />
+        <item itemvalue="JUnit.ReflectCapacitySpaceInTypeUseCaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -118,5 +192,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="faculty" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dddChallenge$co_david_challengeddd_usecase_in_dddChallenge.ic" NAME="co.david.challengeddd.usecase in dddChallenge Coverage Results" MODIFIED="1661024192899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.david.challengeddd.usecase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dddChallenge$co_david_challengeddd_in_dddChallenge.ic" NAME="co.david.challengeddd in dddChallenge Coverage Results" MODIFIED="1660999655326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.david.challengeddd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dddChallenge$All_in_dddChallenge.ic" NAME="All in dddChallenge Coverage Results" MODIFIED="1661010480642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/dddChallenge$co_david_challengeddd_usecase_faculty_in_dddChallenge.ic" NAME="co.david.challengeddd.usecase.faculty in dddChallenge Coverage Results" MODIFIED="1661023606978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.david.challengeddd.usecase.faculty.*</FILTER>
+    </SUITE>
   </component>
 </project>

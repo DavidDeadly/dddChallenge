@@ -10,4 +10,6 @@ public class FacultyID extends Identity {
 
   public FacultyID() {
   }
+
+  public static FacultyID of(String uuid) { return new FacultyID(uuid);}
 }
