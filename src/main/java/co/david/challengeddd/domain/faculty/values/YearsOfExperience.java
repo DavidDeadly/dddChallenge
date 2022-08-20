@@ -2,11 +2,11 @@ package co.david.challengeddd.domain.faculty.values;
 
 import co.com.sofka.domain.generic.ValueObject;
 
-public class YearOfExperience implements ValueObject<Integer> {
+public class YearsOfExperience implements ValueObject<Integer> {
 
   private final Integer value;
 
-  public YearOfExperience(Integer value) {
+  public YearsOfExperience(Integer value) {
     this.value = value;
   }
 
