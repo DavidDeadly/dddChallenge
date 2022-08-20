@@ -22,20 +22,24 @@ public class Student extends Entity<StudentID> {
     this.currentSemester = currentSemester;
   }
 
-  public void turnYears(Age age) {
-    this.age = age;
+  public void turnYears() {
+    this.age = new Age(this.age.value() + 1);
   }
 
   public void assignSubject(SubjectID subjectID) {
     this.subjects.add(subjectID);
   }
 
-  public void getGraduated(IsGraduated isGraduated) {
-    this.isGraduated = isGraduated;
+  public void completeSubject(SubjectID subjectID) {
+    this.subjects.removeIf(subject -> subject.value().equals(subjectID.value()));
   }
 
-  public void passCurrentSemester(CurrentSemester currentSemester) {
-    this.currentSemester = currentSemester;
+  public void getGraduated() {
+    this.isGraduated = new IsGraduated(true);
+  }
+
+  public void passCurrentSemester() {
+    this.currentSemester = new CurrentSemester(this.currentSemester.value() + 1);
   }
 
   public Account account() {

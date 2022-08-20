@@ -14,12 +14,11 @@ public class Computer extends Entity<ComputerID> {
   private Ram ram;
   private StudentID studentID;
 
-  public Computer(ComputerID computerID, Brand brand, Cpu cpu, Ram ram, StudentID studentID) {
+  public Computer(ComputerID computerID, Brand brand, Cpu cpu, Ram ram) {
     super(computerID);
     this.brand = brand;
     this.cpu = cpu;
     this.ram = ram;
-    this.studentID = studentID;
   }
 
   public void improveCPU(Cpu cpu) {
@@ -32,6 +31,10 @@ public class Computer extends Entity<ComputerID> {
 
   public void assignStudentID(StudentID studentID) {
     this.studentID = studentID;
+  }
+
+  public void removeStudentID(StudentID studentID) {
+    this.studentID = null;
   }
 
   public Brand Brand() {

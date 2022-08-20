@@ -14,11 +14,11 @@ import java.util.Set;
 
 public class Complement extends AggregateEvent<ComplementID> {
 
-  private FacultyName facultyName;
-  private FacultyID facultyID;
-  private Set<Book> books;
-  private Set<Space> spaces;
-  private Set<Computer> computers;
+  protected FacultyName facultyName;
+  protected FacultyID facultyID;
+  protected Set<Book> books;
+  protected Set<Space> spaces;
+  protected Set<Computer> computers;
 
   public Complement(ComplementID complementID, FacultyID facultyId, FacultyName facultyName) {
     super(complementID);
@@ -40,20 +40,20 @@ public class Complement extends AggregateEvent<ComplementID> {
     appendChange(new FacultyRenamed(facultyName)).apply();
   }
 
-  public void addBook(BookID bookId) {
-    appendChange(new BookAdded(bookId)).apply();
+  public void addBook(BookID bookId, BookTitle bookTitle, Set<Author> authors, Pages pages) {
+    appendChange(new BookAdded(bookId, bookTitle, authors, pages)).apply();
   }
 
   public void removeBook(BookID bookId) {
     appendChange(new BookRemoved(bookId)).apply();
   }
 
-  public void registerSpace(SpaceID spaceID) {
-    appendChange(new SpaceRegistered(spaceID)).apply();
+  public void registerSpace(SpaceID spaceID, SpaceName spaceName, Capacity capacity) {
+    appendChange(new SpaceRegistered(spaceID, spaceName, capacity)).apply();
   }
 
-  public void buyComputer(ComputerID computerId) {
-    appendChange(new ComputerBuyed(computerId)).apply();
+  public void buyComputer(ComputerID computerId, Brand brand, Cpu cpu, Ram ram) {
+    appendChange(new ComputerBuyed(computerId, brand, cpu, ram)).apply();
   }
 
   public void throwComputer(ComputerID computerID) {

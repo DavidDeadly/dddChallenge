@@ -2,16 +2,16 @@ package co.david.challengeddd.domain.faculty.values;
 
 import co.com.sofka.domain.generic.ValueObject;
 
-public class YearsInCharge implements ValueObject<String> {
+public class YearsInCharge implements ValueObject<Integer> {
 
-  private final String value;
+  private final Integer value;
 
-  public YearsInCharge(String value) {
+  public YearsInCharge(Integer value) {
     this.value = value;
   }
 
   @Override
-  public String value() {
+  public Integer value() {
     return value;
   }
 }

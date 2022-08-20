@@ -11,12 +11,12 @@ import java.util.Set;
 
 public class Faculty extends AggregateEvent<FacultyID> {
 
-  private FacultyName facultyName;
-  private ActiveYears activeYears;
-  private Director director;
-  private Set<Subject> subjects;
-  private Set<Student> students;
-  private Set<Professor> professors;
+  protected FacultyName facultyName;
+  protected ActiveYears activeYears;
+  protected Director director;
+  protected Set<Subject> subjects;
+  protected Set<Student> students;
+  protected Set<Professor> professors;
 
   public Faculty(FacultyID facultyID, FacultyName facultyName, ActiveYears activeYears) {
     super(facultyID);
@@ -42,28 +42,28 @@ public class Faculty extends AggregateEvent<FacultyID> {
     appendChange(new ActiveYearsRenewed(activeYears)).apply();
   }
 
-  public void assignDirector(DirectorID directorID) {
-    appendChange(new DirectorAssigned(directorID)).apply();
+  public void assignDirector(DirectorID directorID, Account account) {
+    appendChange(new DirectorAssigned(directorID, account)).apply();
   }
 
   public void FireDirector(DirectorID directorID) {
     appendChange(new DirectorFired(directorID)).apply();
   }
 
-  public void addSubject(SubjectID subjectID) {
-    appendChange(new SubjectAdded(subjectID)).apply();
+  public void addSubject(SubjectID subjectID, SubjectName subjectName, Points points, TotalHours hours) {
+    appendChange(new SubjectAdded(subjectID, subjectName, points, hours)).apply();
   }
 
   public void removeSubject(SubjectID subjectID) {
     appendChange(new SubjectRemoved(subjectID)).apply();
   }
 
-  public void registerStudent(StudentID studentID) {
-    appendChange(new StudentRegistered(studentID)).apply();
+  public void registerStudent(StudentID studentID, Account account, Age age) {
+    appendChange(new StudentRegistered(studentID, account, age)).apply();
   }
 
-  public void hireProfessor(ProfessorID professorID) {
-    appendChange(new ProfessorHired(professorID)).apply();
+  public void hireProfessor(ProfessorID professorID, Account account, YearsOfExperience yearsOfExperience, List<Title> titles) {
+    appendChange(new ProfessorHired(professorID, account, yearsOfExperience, titles)).apply();
   }
 
   public void increaseSubjectPoints(SubjectID subjectID, Points points) {
@@ -114,16 +114,16 @@ public class Faculty extends AggregateEvent<FacultyID> {
     appendChange(new DirectorYearInChargeRenewed(directorId, yearsInCharge)).apply();
   }
 
-  public void graduateStudent(StudentID studentId, IsGraduated isGraduated) {
-    appendChange(new StudentGraduated(studentId, isGraduated)).apply();
+  public void graduateStudent(DirectorID directorID, StudentID studentId) {
+    appendChange(new StudentGraduated(directorID, studentId)).apply();
   }
 
-  public void expulseStudent(StudentID studentId) {
-    appendChange(new StudentExpulsed(studentId)).apply();
+  public void expulseStudent(DirectorID directorID, StudentID studentId) {
+    appendChange(new StudentExpulsed(directorID, studentId)).apply();
   }
 
-  public void fireProfessor(DirectorID directorId) {
-    appendChange(new ProfessorFired(directorId)).apply();
+  public void fireProfessor(DirectorID directorId, ProfessorID professorID) {
+    appendChange(new ProfessorFired(directorId, professorID)).apply();
   }
 
   public Optional<Subject> getSubjectById(SubjectID subjectID) {

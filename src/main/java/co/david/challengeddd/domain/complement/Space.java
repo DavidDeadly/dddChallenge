@@ -24,9 +24,13 @@ public class Space extends Entity<SpaceID> {
     this.spaceName = spaceName;
   }
 
-  public void reflectCapacityInType(Capacity capacity) {
-    this.typeOfSpace = capacity.value() > 50 ?
-       new TypeOfSpace(TypeOfSpaceE.auditorium)
+  public void reflectCapacityInType(TypeOfSpace typeOfSpace) {
+    this.typeOfSpace = typeOfSpace;
+  }
+
+  public static TypeOfSpace getTypeOfSpace(Capacity capacity) {
+    return capacity.value() > 50 ?
+      new TypeOfSpace(TypeOfSpaceE.auditorium)
       : new TypeOfSpace(TypeOfSpaceE.classroom);
   }
 

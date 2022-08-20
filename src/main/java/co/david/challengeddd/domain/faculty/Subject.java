@@ -10,12 +10,11 @@ public class Subject  extends Entity<SubjectID> {
   private TotalHours totalHours;
   private ProfessorID professorID;
 
-  public Subject(SubjectID subjectID, SubjectName subjectName, Points points, TotalHours totalHours, ProfessorID professorID) {
+  public Subject(SubjectID subjectID, SubjectName subjectName, Points points, TotalHours totalHours) {
     super(subjectID);
     this.subjectName = subjectName;
     this.points = points;
     this.totalHours = totalHours;
-    this.professorID = professorID;
   }
 
   public void increasePoints(Points points) {

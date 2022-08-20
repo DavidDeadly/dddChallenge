@@ -21,11 +21,11 @@ public class Professor extends Entity<ProfessorID> {
     this.titles = titles;
   }
 
-  public void turnExpertiseYears(YearsOfExperience yearsOfExperience) {
-    this.yearsOfExperience = yearsOfExperience;
+  public void turnExpertiseYears() {
+    this.yearsOfExperience = new YearsOfExperience(this.yearsOfExperience.value() + 1);
   }
 
-  public void addTitles(Title title) {
+  public void addTitle(Title title) {
     this.titles.add(title);
   }
 
