@@ -4,47 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5daa7a-96d2-4653-8e70-5b21feffda01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/Complement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/BookTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/Capacity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/Cpu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/Ram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/SpaceName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/TypeOfSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/TypeOfSpaceE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Faculty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/ActiveYears.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/Age.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/CurrentSemester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/DirectorID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/FacultyID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/FacultyName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/IsGraduated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/Points.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/StudentID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/SubjectID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/SubjectName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/Title.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/TotalHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/YearOfExperience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/YearsInCharge.java" afterDir="false" />
-    </list>
+    <list default="true" id="2f5daa7a-96d2-4653-8e70-5b21feffda01" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
