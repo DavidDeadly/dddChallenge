@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5daa7a-96d2-4653-8e70-5b21feffda01" name="Changes" comment="" />
+    <list default="true" id="2f5daa7a-96d2-4653-8e70-5b21feffda01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/BookAdded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/BookNameRemade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/BookRemoved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/CapacityInTypeSpaceReflected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/ComplementCreated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/ComputerBuyed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/ComputerThrown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/FacultyRenamed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/SpaceBookAssigned.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/SpaceBookRetrieved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/SpaceCapacityDecreased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/SpaceCapacityIncreased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/events/SpaceRegistered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/AddSubjectTotalHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/AssignSubjectProfessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/commands/SubtractSubjectTotalHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/ActiveYearsRenewed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/DirectorAssigned.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/DirectorFired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/DirectorYearInChargeRenewed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/FacultyCreated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/FacultyRenamed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/ProfessorExpertiseIncreased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/ProfessorFired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/ProfessorHired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/ProfessorTitleAdded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/StudentBirthDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/StudentExpulsed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/StudentGraduated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/StudentSemesterPassed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/StudentSubjectAssigned.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/StudentSubjectComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/SubjectAdded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/SubjectPointsDecreased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/SubjectPointsIncreased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/SubjectProfessorAssign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/SubjectRemoved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/SubjectTotalHoursAdded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/events/SubjectTotalHoursSubtracted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
