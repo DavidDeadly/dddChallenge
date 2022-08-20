@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f5daa7a-96d2-4653-8e70-5b21feffda01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/Complement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/BookTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/Capacity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/Cpu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/Ram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/SpaceName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/TypeOfSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/complement/values/TypeOfSpaceE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/ActiveYears.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/Age.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/CurrentSemester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/DirectorID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/FacultyID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/FacultyName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/IsGraduated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/Points.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/StudentID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/SubjectID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/SubjectName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/Title.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/TotalHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/YearOfExperience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/david/challengeddd/domain/faculty/values/YearsInCharge.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Db3qTaHGZ49FW6smjmAn6lhAKT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/daviddeadly/Dev/Sofka/DDD/modelo_ddd_ciclo4"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.david.challengeddd.domain.faculty.values" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.david.challengeddd.Main" />
+      <module name="dddChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.david.challengeddd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f5daa7a-96d2-4653-8e70-5b21feffda01" name="Changes" comment="" />
+      <created>1660954147935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660954147935</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
